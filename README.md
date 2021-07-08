@@ -153,3 +153,6 @@ f = 0.0
 fx = -0.112745
 fy = 0.0
 ```
+## Back Propagation using Dual Numbers
+
+Work is in progress and it will soon be updated...
