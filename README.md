@@ -3,7 +3,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/ujjwalkhandelwal/Dual-numbers-and-automatic-differentiation-using-Python?style=flat-square
 )](https://github.com/ujjwalkhandelwal/Dual-numbers-and-automatic-differentiation-using-Python/issues)
 
-Implemented the forward mode of automatic differentiation with the help of [dual numbers](https://en.wikipedia.org/wiki/Dual_number). We first implement a class **Dual** with the constructor **__init__**, the functions **__add__**, **__radd__**, **__sub__**, **__rsub__**, **__mul__**, **__rmul__**, **__truediv__**, **__rtruediv__**, **__neg__** and **__pow__**. As the names suggest, those functions and properties implement basic arithmetic operations for Dual numbers:
+Implemented the forward mode of automatic differentiation with the help of [dual numbers](https://en.wikipedia.org/wiki/Dual_number). We first implemented a class **Dual** with the constructor **__init__**, the functions **__add__**, **__radd__**, **__sub__**, **__rsub__**, **__mul__**, **__rmul__**, **__truediv__**, **__rtruediv__**, **__neg__** and **__pow__**. As the names suggest, those functions and properties implement basic arithmetic operations for Dual numbers:
 
 __init__ : constructor that initialises an object of class **Dual**. Each object represents a dual number **a+εb** with real component **a** (*self.real*) and dual component **b** (*self.dual*).
 
