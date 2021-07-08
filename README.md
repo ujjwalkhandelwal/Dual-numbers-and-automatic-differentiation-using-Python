@@ -78,6 +78,8 @@ f = 1
 fx = -13
 fy = 4
 ```
+**NOTE:** The key, value pair in the dictionary indicates the symbol with which you want to represent the variable and the value of the dual number respectively. Like **y = Dual(real=2, dual={'y': 7})** represents **x = 2 + 7ε**. In case you want to calculate the partial derivatives of `f`, keep the value of the dict as 1 (**y = Dual(real=2, dual={'y': 1})**
+    
 ### Example-2
 
 
