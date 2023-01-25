@@ -1,8 +1,8 @@
 ################################################################################
 #                                                                              #
-#	UJJWAL KHANDELWAL                                                       #    
-#	DUAL NUMBERS AND AUTOMATIC DIFFERENTIATION                              #
-#	PYTHON 3.7.10                                                           #
+#	UJJWAL KHANDELWAL                                                      #    
+#	DUAL NUMBERS AND AUTOMATIC DIFFERENTIATION                             #
+#	PYTHON 3.7.10                                                          #
 #                                                                              #
 ################################################################################
 
