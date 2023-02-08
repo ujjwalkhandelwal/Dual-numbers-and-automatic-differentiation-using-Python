@@ -55,19 +55,7 @@ class Dual:
             return Dual(self.real - argument, self.dual)
         
     def __rsub__(self, argument):
-        if isinstance(argument, Dual):
-            real = -self.real + argument.real
-            dual = {}
-            for key in argument.dual:
-                dual[key] = argument.dual[key]
-            for key in self.dual:
-                if key in dual:
-                    dual[key] -= self.dual[key]
-                else:
-                    dual[key] = -self.dual[key]    
-            return Dual(real, dual)
-        else:
-            return Dual(-self.real + argument, self.dual)
+            return -self + argument
     
     def __mul__(self, argument):
         if isinstance(argument, Dual):
